@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Nicktechs</title>
+      
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- awesome fontfamily -->
+   
+      
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+   </head>
+   
+   <body class="main-layout">
+     
+       
+      
+      <!-- <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="loading" /></div>
+      </div>
+       -->
+      <header>
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class=" col-md-2 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           
+                          
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-8 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                 <a class="nav-link" href="we_do.html">What we do</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="portfolio.html">Portfolio </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="about.html">About us</a>
+                              <li class="nav-item">
+                                 <a href="quote.html" style="text-decoration: none;">
+                                    <button style="background-color: #7684fd; color: white; padding: 10px 15px; border: none; cursor: pointer;">
+                                      Get a quote
+                                    </button>
+                                  </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+                  <div class="col-md-2 d_none">
+                     <ul class="email text_align_right">
+                        <!-- <p>login to track your project progress</p> -->
+                        <li> <a href="login.html"> Login </a></li><br>
+                        <li> <a href="register.html">Register </a></li><br>
+                       
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      
+     
+     
+      <div style="position: relative; display: inline-block;">
+         <img src="images/navigation-bar.png" alt="Dropdown Icon" style="cursor: pointer;" onclick="toggleDropdown()" height="50px" width="40px">
+         <ul id="dropdownMenu" style="display: none; position: absolute; top: 100%; left: 0; background-color: #f9f9f9; padding: 8px; list-style: none;">
+           <li><a href="#">Menu Item 1</a></li>
+           <li><a href="#">Menu Item 2</a></li>
+           <li><a href="#">Menu Item 3</a></li>
+         </ul>
+       </div>
+       
+       <script>
+       function toggleDropdown() {
+         var dropdownMenu = document.getElementById("dropdownMenu");
+         dropdownMenu.style.display = (dropdownMenu.style.display === "none") ? "block" : "none";
+       }
+       
+       document.addEventListener("click", function(event) {
+         var dropdownMenu = document.getElementById("dropdownMenu");
+         var icon = document.querySelector("img");
+         
+         if (!icon.contains(event.target) && event.target !== icon) {
+           dropdownMenu.style.display = "none";
+         }
+       });
+       </script>
+     
+      <div id="top_section" class=" banner_main">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <h1  style="color: rgb(101, 196, 64);">Nicktechs  <br>Technologies </h1>
+                                    <p>We have worked with different organizations, dvelopimg<br>
+                                       defferent types of systems making us one of the best <br>
+                                       IT companies in Kenya
+                                    </p>
+                                    <a class="read_more" href="we_do.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                        <!-- <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <h1  style="color: rgb(101, 196, 64);">Creative  <br>Work Ideas </h1>
+                                    <p>We have worked with different organizations, dvelopimg<br>
+                                       defferent types of systems making us one of the best <br>
+                                       IT companies in Kenya
+                                    </p>
+                                    <a class="read_more" href="we_do.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div> --> -->
+                        <!-- <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <h1  style="color: rgb(101, 196, 64);">Creative  <br>Work Ideas </h1>
+                                    <p>Talk about Technology <br>We got you covered
+                                    </p>
+                                    <a class="read_more" href="we_do.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container-fluid">
+                              <div class="carousel-caption relative">
+                                 <div class="bluid">
+                                    <h1  style="color: rgb(101, 196, 64);">nicktechs <br>Work Ideas </h1>
+                                    <p>We are just one call away <br>contact us today for amazing services
+                                    </p>
+                                    <a class="read_more" href="we_do.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end slider section -->
+      <!-- we_do -->
+      <div class="we_do">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>what we are best at
+                         </h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="we1" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#we1" data-slide-to="0" class="active"></li>
+                        <li data-target="#we1" data-slide-to="1"></li>
+                        <li data-target="#we1" data-slide-to="2"></li>
+                        <li data-target="#we1" data-slide-to="3"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container-fluid">
+                              <div class="carousel-caption we1_do">
+                                 <div class="row">
+                                    <div class="row">
+                                       <div class="col-md-4">
+                                          <div id="bo_ho" class="we_box text_align_left">
+                                             <i><img src="images/web2.png" alt="#"/></i>
+                                             <h3>Mobile App <br>development</h3>
+                                             <p> With the increasing use of smartphones,We offer mobile app development services. They create native or cross-platform applications for iOS and Android devices, ensuring seamless user experiences and incorporating the latest mobile technologies.
+                                             </p>
+                                             <a class="read_more" href="contact.html">Book Appoinment</a>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-4">
+                                          <div id="bo_ho" class="we_box text_align_left">
+                                             <i><img src="images/hacker.png" alt="#"/></i>
+                                             <h3>cybersecurity <br>services</h3>
+                                             <p>Cybersecurity Services: Given the increasing cyber threats, software companies can provide cybersecurity services to protect businesses from data breaches and cyber-attacks. This includes vulnerability assessments, penetration testing, network security, and incident response planning.
+                                             </p>
+                                             <a class="read_more" href="quote.html">Book Appoinment</a>
+                                          </div>
+                                       </div> 
+                                       <div class="col-md-4">
+                                          <div id="bo_ho" class="we_box text_align_left">
+                                             <i><img src="images/ap.png" alt="#"/></i>
+                                             <h3>Digital Marketing<br> Solutions:</h3>
+                                             <p> We offer digital marketing services to help businesses establish and enhance their online presence. This includes search engine optimization (SEO), social media marketing, content marketing, and pay-per-click (PPC) advertising
+                                             </p>
+                                             <a class="read_more" href="quote.html">Book Appoinment</a>
+                                          </div>
+                                       </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="we_do">
+                              <div class="container">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="titlepage text_align_center">
+                                          <h2>Technology Expertise
+                                              </h2>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div id="we1" class="carousel slide" data-ride="carousel">
+                                          <ol class="carousel-indicators">
+                                             <li data-target="#we1" data-slide-to="0" class="active"></li>
+                                             <li data-target="#we1" data-slide-to="1"></li>
+                                             <li data-target="#we1" data-slide-to="2"></li>
+                                             <li data-target="#we1" data-slide-to="3"></li>
+                                          </ol>
+                                          <div class="carousel-inner" style="background-color: aliceblue;">
+                                             <div class="carousel-item active">
+                                                <div class="container-fluid">
+                                                   <div class="carousel-caption we1_do">
+                                                      <div class="row">
+                                                         <div class="row">
+                                                            <div class="col-md-4">
+                                                               <div id="bo_ho" class="we_box text_align_left">
+                                                                  <i><img src="images/team1.jpg" alt="#"/></i>
+                                                                  <h3>Mobile App <br>Team</h3>
+                                                                  <p> we have high skilled team of experts, who are ready to enhance the security details of your enterprise's systems.
+                                                                  </p>
+                                                                  <!-- <a class="read_more" href="contact.html">Book Appoinment</a> -->
+                                                               </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                               <div id="bo_ho" class="we_box text_align_left">
+                                                                  <i><img src="images/sec.jpg" alt="#"/></i>
+                                                                  <h3>cybersecurity Team</h3>
+                                                                  <p>we have high skilled team of experts, who are ready to enhance the security details of your enterprise's systems.
+                                                                  </p>
+                                                                  <!-- <a class="read_more" href="quote.html">Book Appoinment</a> -->
+                                                               </div>
+                                                            </div> 
+                                                            <div class="col-md-4">
+                                                               <div id="bo_ho" class="we_box text_align_left">
+                                                                  <i><img src="images/mark.jpg" alt="#"/></i>
+                                                                  <h3>Digital Marketing<br> Solutions Team</h3>
+                                                                  <p>We enhance your digital marketing solutions with at a cheap and affondable prices
+                                                                  </p>
+                                                                  <!-- <a class="read_more" href="quote.html">Book Appoinment</a> -->
+                                                               </div>
+                                                            </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+
+      
+     <!-- portfolio -->
+     <div class="portfolio">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage text_align_left">
+                  <h2>Some of our project   </h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-6">
+               <div id="ho_nf" class="portfolio_main text_align_left">
+                  <figure>
+                     <img src="https://themeforest.img.customer.envatousercontent.com/files/315703362/preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=15e943e862a21f7ac94e5b3daa89b4eb" alt="#"/>
+                     <div class="portfolio_text">
+                        
+                        <h3>Stock exchange website</h3>
+                        <p>We have done several stock exchange website
+                            including creatives fx</p>
+                     </div>
+                  </figure>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div id="ho_nf" class="portfolio_main text_align_left">
+                  <figure>
+                     <img src="images/sch.jpg" alt="#"/>
+                     <div class="portfolio_text">
+                       
+                        <h3>School management system</h3>
+                        <p> We have worked with different schools creating state of the<br>
+                        art school management systems</p>
+                     </div>
+                  </figure>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div id="ho_nf" class="portfolio_main text_align_left">
+                  <figure>
+                     <img src="images/e-com.jpg" alt="#"/>
+                     <div class="portfolio_text">
+                     
+                        <h3>E-commerce website</h3>
+                        <p>We have created several e commerce websites for different business including online shops, online service providers websites, the list is endless.</p>
+                     </div>
+                  </figure>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div id="ho_nf" class="portfolio_main text_align_left">
+                  <figure>
+                     <img src="images/qms..png" alt="#"/>
+                     <div class="portfolio_text">
+                      
+                        <h3>Que management system</h3>
+                        <p>We have developed several que management system for banks,hosptals and other organizations in the country
+                           </p>
+                  </figure>
+               </div>
+            </div>
+            <div class="col-md-12">
+               <a class="read_more" href="portfolio.html">see more</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end portfolio -->
+      <!-- end portfolio -->
+      <!-- chose -->
+      <div class="chose">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <h2>Why Chose us</h2>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-4">
+                  <div class="chose_box">
+                     <i><img src="images/chose1.png" alt="#"/></i>
+                     <h3>Projects Done </h3>
+                     <strong>1200+</strong>
+                     <a class="read_more" href="Javascript:void(0)">Read More</a>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-4">
+                  <div class="chose_box">
+                     <i><img src="images/chose2.png" alt="#"/></i>
+                     <h3>Satisfied Clients </h3>
+                     <strong>70k+</strong>
+                     <a class="read_more" href="Javascript:void(0)">Read More</a>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-4">
+                  <div class="chose_box">
+                     <i><img src="images/chose3.png" alt="#"/></i>
+                     <h3>Awards</h3>
+                     <strong>50+</strong>
+                     <a class="read_more" href="Javascript:void(0)">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end chose -->
+      <!-- contact -->
+      <div class="contact">
+         <div class="container">
+            <div class="row ">
+               <div class="col-md-6">
+                  <div class="titlepage text_align_left">
+                     <h2>Give your reviews</h2>
+                  </div>
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Name" type="type" name=" Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Send Now</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+              
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- contact -->
+      <!-- footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  
+                  <div class="col-md-9">
+                     <form class="newslatter_form">
+                        <label for=""><b>subscribe now to get the latest news in nicktechs</b></label>
+                        <input class="ente" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="subs_btn" >Sbscribe Now</button>
+                     </form>
+                  </div><br>
+                  <div class="col-md-3 col-sm-6">
+                     <div class="Informa conta">
+                        <h3>contact Us</h3>
+                        <ul>
+                           <li> <a href="Javascript:void(0)"> <i class="fa fa-map-marker" aria-hidden="true"></i> Location
+                              </a>
+                           </li>
+                           <li> <a href="Javascript:void(0)"><i class="fa fa-phone" aria-hidden="true"></i> Call 0746156701
+                              </a>
+                           </li>
+                           <li> <a href="Javascript:void(0)"> <i class="fa fa-envelope" aria-hidden="true"></i> nicholusm560@gmail.com
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright text_align_left">
+               <div class="container">
+                  <div class="row d_flex">
+                     <footer>
+                      
+                      
+                       <div>
+                           <button class="scrollToTopBtn" onclick="scrollToTop()">Scroll to Top</button>
+                           </div>
+                      
+                         
+                      
+                     <div class="col-md-6">
+                        <p>© 2023 All Rights Reserved. Designed by<a href="index.html" ></a>Nicktechs </p>
+                     </div>
+                     <div class="col-md-6">
+                        <ul class="social_icon text_align_center">
+                           <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                           <li> <a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                           <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                           <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                           <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+    
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html> 
